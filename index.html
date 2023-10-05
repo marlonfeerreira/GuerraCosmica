@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Jogo Cosmico</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Bem vindo ao Guerra Cosmica</h1>
+    <div class="game-board">
+      <div class="player-1">
+        <img src="img/darkseid.jpeg" alt="Darkseid">
+      </div>
+      <div class="player-2">
+        <img src="img/FenixNegra.jpg" alt="Fênix Negra">
+      </div>
+    </div>
+    
+    <div class="game-info">
+      <p>Defensor: <span id="defender"></span></p>
+      <p>Atacante: <span id="attacker"></span></p>
+      <p>Pontos: <span id="points"></span></p>
+      <p id="rounds">Rodadas: 0</p>
+    </div>
+    <div class="game-controls">
+      <button id="roll-dice">Jogar</button>
+    </div>
+    <table id="score-table">
+      <tr>
+        <th>Darkseid</th>
+        <th>Fênix Negra</th>
+      </tr>
+      <tr>
+        <td>0</td>
+        <td>0</td>
+      </tr>
+    </table>
+  </div>
+  <script src="script.js"></script>
+  <div style="position: fixed; bottom: 0; right: 0;  color: white; padding: 5px 10px;">
+    &copy; Marlon Ferreira da Silva - 2023 
+  </div>
+</body>
+</html>
